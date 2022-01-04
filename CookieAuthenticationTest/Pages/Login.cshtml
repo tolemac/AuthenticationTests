@@ -1,0 +1,10 @@
+﻿@page
+@model CookieAuthenticationTest.Pages.LoginModel
+@{
+}
+<form  method="post">
+    <button type="submit" asp-page-handler="Login" class="btn btn-outline-info" 
+    id="btnLogin">Login</button>
+    <button type="submit" asp-page-handler="Logout" class="btn btn-outline-info" 
+    id="btnLogout">Logout</button>
+</form>
